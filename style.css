@@ -25,9 +25,14 @@ input::placeholder {
     
 }
 
-.col {
-    font-size: 30px;
-}
+/* .col {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -1.25rem;
+    padding: 0 1.25rem;
+} */
 
 .topnav {
     display: flex;
@@ -40,12 +45,12 @@ input::placeholder {
 
 } */
 
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -1.25rem;
-}
+} */
 
 /* .container {
     container-type: inline-size;
@@ -56,6 +61,16 @@ input::placeholder {
 /* .wide {
     width: 500px;
   } */
+
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    flex-flow: row;
+    justify-content: space-between;
+    /* min-width: 100px; */
+    max-width: 100px;
+  }
 
 #moviesContainer{
     font-size: 20px;
