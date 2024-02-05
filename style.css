@@ -12,6 +12,13 @@
    
 }
 
+.topnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -1.25rem;
+}
+
 input {
     display: block;
     width: 50vw;
@@ -25,32 +32,17 @@ input::placeholder {
     
 }
 
-/* .col {
-    font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 -1.25rem;
-    padding: 0 1.25rem;
-} */
-
-.topnav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 -1.25rem;
-}
-
 /* .topnav {
 
 } */
 
-/* .row {
-    display: flex;
+.row {
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -1.25rem;
-} */
+    margin: 0 -1.25rem; */
+    padding-top: 50px;
+}
 
 /* .container {
     container-type: inline-size;
@@ -62,14 +54,25 @@ input::placeholder {
     width: 500px;
   } */
 
-  img {
+  .col {
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column; 
-    flex-flow: row;
     justify-content: space-between;
+    /* margin: 0 1.25rem; */
+    padding: 0 1.25rem;
+    /* padding-top: 50px; */
+}
+
+  img {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row;
+    justify-content: space-between; */
     /* min-width: 100px; */
-    max-width: 100px;
+    max-width: 150px;
+    max-height: 200px;
   }
 
 #moviesContainer{
